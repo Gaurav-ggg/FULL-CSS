@@ -1,0 +1,31 @@
+h1{
+    height: 100px;
+    background-color: blueviolet;
+}
+p{
+    width: 200px;
+    background-color: cadetblue;
+}
+body{
+    background-color: black;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    /*
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    */
+    border: 2px solid rgb(245, 21, 21);
+    border-radius: 15px;
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}

@@ -1,0 +1,22 @@
+h3{
+    color: chartreuse;
+}
+p{
+    color: #ff0000;
+}
+button{
+    color: darkorchid;
+    background-color: rgb(0, 0, 145);
+}
+body{
+    background-color: black;
+}
+#heading{
+    color: chocolate;
+}
+/* *{
+    color: blue;
+} */
+.myclass{
+    color: darkcyan;
+}

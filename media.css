@@ -1,0 +1,32 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+@media(width : 600px)
+{
+    div{
+        background-color: blueviolet;
+    }
+}
+body{
+    background-color: black;
+}
+@media(max-width : 598px)
+{
+    div{
+        background-color: chartreuse;
+    }
+}
+@media(min-width : 601px)
+{
+    div{
+        background-color: cornflowerblue;
+    }
+}
+@media (min-width : 200px) and (max-width : 300px)
+{
+    div{
+        background-color: chocolate;
+    }
+}

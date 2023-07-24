@@ -1,0 +1,29 @@
+p{
+    background-color: aqua;
+    display: inline;
+}
+button{
+    display: block;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block; 
+}
+body{
+    background-color: black;
+}
+#box1{
+    background-image: url(image1.jpg);
+    background-size: contain;
+}
+#box2{
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+#box3{
+    background-image: url(image2.jpg);
+    background-size: cover;
+}

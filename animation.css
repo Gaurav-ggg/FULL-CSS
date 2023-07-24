@@ -1,0 +1,42 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(21, 179, 179);
+    border: 2px solid rgb(233, 16, 16);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimate;
+    /* animation-duration: 3s; */
+    /* animation-timing-function: ease-in; */
+    animation-duration: 3s;
+    animation-delay: 1s;
+    /* animation-iteration-count: 5; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation: colorAnimate 2s ease-in 0s infinite normal; */
+}
+@keyframes colorAnimate{
+    /* from{
+        background-color: blue;
+        left:0px;
+    }
+    to{
+        background-color: blueviolet;
+        left: 200px;
+    } */
+    0%{
+        background-color: blue;
+        left:0px;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: blueviolet;
+        left: 200px;
+    }
+}
+body{
+    background-color: black;
+}

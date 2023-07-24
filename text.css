@@ -1,0 +1,32 @@
+p{
+    text-align: left;
+}
+h5{
+    text-align: right;
+    text-decoration: blue dotted underline;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    text-decoration: red underline;
+}
+#he1{
+    font-size: normal;
+}
+#he2
+{
+    font-size: 500;
+}
+#one{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#two{
+    font-size: 25px;
+}
+#three{
+    font-size: 5px;
+}
+#four{
+    font-size: 2px;
+}

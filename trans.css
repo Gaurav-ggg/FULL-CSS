@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(21, 179, 179);
+    border: 2px solid rgb(233, 16, 16);
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    /* transition: all 2s ease-in 1s; */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transform: rotate(60deg); */
+    /* rotate: z 90deg; */
+    /* transform: scale(2,1); */
+    transition: all 2s ease-in ;
+}
+div:hover{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 10px;
+    /* transform: scalex(2); */
+    /* transform: scale(2); */
+    /* transform: rotate(360deg); */
+    /* transform: translate(200px); */
+    /* transform: translatey(-200px); */
+    /* transform: translate(200px,80px); */
+    transform: skew(90deg);
+}
+div:active{
+    background-color: brown;
+}
+body{
+    background-color: black;
+}
